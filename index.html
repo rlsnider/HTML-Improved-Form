@@ -20,6 +20,9 @@
                 <span class="required-field">*</span>
                 <label for="lastname">Your Last Name</label>
                 <input type="text" id="lastname" name="lastname" minlength="2" maxlength="35" required>
+                <label for="age">Your Age</label>
+                <input type="number" id="age" value="age" minvalue="21" maxvalue="99">
+                <h5>Must Be 21 or Older to Enter</h5>
             </div>
             <fieldset>
                 <legend>Your Contact Info</legend>
@@ -89,7 +92,7 @@
                         <option value="WY">Wyoming</option>
                     </datalist>
                     <label for="zip">Your Zipcode</label>
-                    <input type="text" id="zip" name="zip">
+                    <input type="number" id="zip" name="zip" minlength="5" maxlength="5">
                 </div>
             </fieldset>
 
